@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.lws.allapp.MainActivity">
+
+    <Button
+        android:id="@+id/btn_simple_launcher"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="简易Launcher"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btn_all_app"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="所有App"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btn_system_app"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="系统App"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btn_third_app"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="第三方App"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btn_sdcard_app"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SD卡中的App"
+        android:textAllCaps="false" />
+
+</LinearLayout>
